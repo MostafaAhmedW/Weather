@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/madia.css" />
+</head>
+
+<body class="min-vh-100">
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container py-5">
+      <div class="nav-home ">
+        <a class="navbar-brand justify-content-center align-items-center d-flex  " href="#">
+          <img src="imegs/logo@2x.png" alt="Bootstrap" class="d-block w-25 ">
+          <span class=" fs-6 ps-3 text-white">Weather</span>
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5 ">
+          <li class="nav-item   border-navBar px-4">
+            <a class="nav-link active  fw-bold" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link " href="#">News</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link " href="#">Live cameras</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link " href="#">Photos</a>
+          </li>
+          <li class="nav-item px-4">
+            <a class="nav-link " href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div class="container mt-5 pt-5 text-center">
+      <input type="text" class=" text-white w-100" id="searchInput" placeholder="Find your location">
+      <div id="cardsContainer" class="cards  d-flex gap-3 
+    justify-content-center align-items-center  py-2 px-2 "></div>
+    </div>
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
