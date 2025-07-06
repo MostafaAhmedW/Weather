@@ -1,0 +1,168 @@
+@media all and (width :500px){
+    .xs-100{
+        width: 100%;
+    }
+    .xs-90{
+        width: 90%;
+    }
+    .xs-80{
+        width: 80%;
+    }
+    .xs-70{
+        width: 70%;
+    }
+    .xs-60{
+        width: 60%;
+    }
+    .xs-50{
+        width: 50%;
+    }
+    .xs-33{
+        width: 33.33333%;
+    }  
+    .xs-25{
+        width: 25%;
+    }  
+}
+
+@media all and (640px <= width <768px){
+    .sm-100{
+        width: 100%;
+    }
+    .sm-90{
+        width: 90%;
+    }
+    .sm-80{
+        width: 80%;
+    }
+    .sm-70{
+        width: 70%;
+    }
+    .sm-60{
+        width: 60%;
+    }
+    .sm-50{
+        width: 50%;
+    }
+    .sm-33{
+        width: 33.33333%;
+    }  
+    .sm-25{
+        width: 25%;
+    }  
+}
+
+@media all and (768px <= width < 1024px){
+    .md-100{
+        width: 100%;
+    }
+    .md-90{
+        width: 90%;
+    }
+    .md-80{
+        width: 80%;
+    }
+    .md-70{
+        width: 70%;
+    }
+    .md-60{
+        width: 60%;
+    }
+    .md-50{
+        width: 50%;
+    }
+    .md-33{
+        width: 33.33333%;
+    }  
+    .md-25{
+        width: 25%;
+    }  
+}
+
+@media all and ( 1024px <= width < 1280px){
+    .lg-100{
+        width: 100%;
+    }
+    .lg-90{
+        width: 90%;
+    }
+    .lg-80{
+        width: 80%;
+    }
+    .lg-70{
+        width: 70%;
+    }
+    .lg-60{
+        width: 60%;
+    }
+    .lg-50{
+        width: 50%;
+    }
+    .lg-33{
+        width: 33.33333%;
+    }  
+    .lg-25{
+        width: 25%;
+    }  
+}
+
+
+@media all and ( 1280px <= width < 1536px){
+    .xl-100{
+        width: 100%;
+    }
+    .xl-90{
+        width: 90%;
+    }
+    .xl-80{
+        width: 80%;
+    }
+    .xl-70{
+        width: 70%;
+    }
+    .xl-60{
+        width: 60%;
+    }
+    .xl-50{
+        width: 50%;
+    }
+    .xl-33{
+        width: 33.33333%;
+    }  
+    .xl-25{
+        width: 25%;
+    }  
+    .xl-20{
+        width: 20%;
+    }  
+}
+
+@media all and (  width < 1536px){
+    .xxl-100{
+        width: 100%;
+    }
+    .xxl-90{
+        width: 90%;
+    }
+    .xxl-80{
+        width: 80%;
+    }
+    .xxl-70{
+        width: 70%;
+    }
+    .xxl-60{
+        width: 60%;
+    }
+    .xxl-50{
+        width: 50%;
+    }
+    .xxl-33{
+        width: 33.33333%;
+    }  
+    .xxl-25{
+        width: 25%;
+    }  
+    .xxl-16{
+        width: 16.66666%;
+    }  
+}
